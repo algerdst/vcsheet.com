@@ -92,4 +92,5 @@ def parse():
             page+=1
             print(f'Собрано {len(investors)} инвесторов')
 
-parse()
+if __name__ == '__main__':
+    parse()
